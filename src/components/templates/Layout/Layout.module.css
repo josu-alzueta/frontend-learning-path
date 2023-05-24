@@ -1,0 +1,17 @@
+.Layout {
+  display: flex;
+  height: 100%;
+}
+
+.Layout aside {
+  flex-shrink: 0;
+}
+
+.LayoutContent {
+  flex-grow: 1;
+
+  padding: var(--space-m);
+
+  overflow-x: hidden;
+  overflow-y: auto;
+}

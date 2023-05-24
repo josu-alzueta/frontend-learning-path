@@ -1,0 +1,8 @@
+.Codesandbox {
+  width: 100%;
+  height: 500px;
+  border: none;
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 15px 10px -10px;
+  overflow: hidden;
+}

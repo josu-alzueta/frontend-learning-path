@@ -1,0 +1,15 @@
+.Code {
+  display: inline-block;
+  padding: var(--space-xxs) var(--space-xs);
+  margin: var(--space-xxs);
+
+  background-color: var(--colors-grayscale-f);
+  color: var(--colors-code-a);
+
+  font-family: monospace;
+  border-radius: var(--radius-s);
+}
+
+.Code.inline {
+  display: inline-block;
+}

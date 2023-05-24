@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Poppins:wght@400;600&display=swap");
+
+:root {
+  font-family: Poppins, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-weight: 400;
+
+  color-scheme: light dark;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+
+  --space-xxs: 0.25rem;
+  --space-xs: 0.5rem;
+  --space-s: 1rem;
+  --space-m: 2rem;
+  --space-l: 3rem;
+
+  --radius-xs: 2px;
+  --radius-s: 4px;
+  --radius-m: 8px;
+  --radius-l: 16px;
+
+  --colors-grayscale-a: #f6f6f6;
+  --colors-grayscale-b: #eaeaea;
+  --colors-grayscale-c: #bbb;
+  --colors-grayscale-d: #999;
+  --colors-grayscale-e: #777;
+  --colors-grayscale-f: #333;
+  --colors-grayscale-g: #111;
+
+  --colors-accent-a: #d20532;
+
+  --colors-code-a: #fda848;
+
+  --font-normal: 400;
+  --font-bold: 600;
+}
+
+html,
+body {
+  height: 100%;
+
+  margin: 0;
+}
+
+body > * {
+  height: 100%;
+}
+
+h1 {
+  margin-bottom: var(--space-l);
+
+  font-size: 3rem;
+  line-height: 3.5rem;
+
+  font-weight: var(--font-bold);
+}
+
+a,
+a:active,
+a:hover,
+a:visited {
+  color: var(--colors-accent-a);
+}
+
+/* For NavLink active styling */
+a.active {
+  font-weight: 600;
+}

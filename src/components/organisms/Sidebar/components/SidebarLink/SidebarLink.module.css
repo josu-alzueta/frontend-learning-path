@@ -1,0 +1,14 @@
+.SidebarLink {
+  display: block;
+
+  padding: var(--space-xs);
+
+  color: inherit !important;
+
+  border-radius: var(--radius-s);
+  text-decoration: none;
+}
+
+.SidebarLink:hover {
+  background-color: var(--colors-grayscale-b);
+}

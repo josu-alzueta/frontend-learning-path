@@ -1,0 +1,26 @@
+.Wrapper {
+  display: flex;
+  align-items: center;
+  gap: var(--space-s);
+
+  line-height: 1;
+}
+
+.Wrapper:before,
+.Wrapper:after {
+  content: "";
+  flex-grow: 1;
+  height: 1px;
+
+  background-color: var(--colors-grayscale-b);
+}
+
+.Title {
+  text-decoration: none;
+  color: inherit !important;
+}
+
+.TitleHeading {
+  font-size: 1.5rem;
+  font-weight: var(--font-bold);
+}
