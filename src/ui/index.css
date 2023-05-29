@@ -2,7 +2,6 @@
 
 :root {
   font-family: Poppins, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  font-weight: 400;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -21,6 +20,7 @@
   --radius-m: 8px;
   --radius-l: 16px;
 
+  --colors-grayscale-white: #fcfcfc;
   --colors-grayscale-a: #f6f6f6;
   --colors-grayscale-b: #eaeaea;
   --colors-grayscale-c: #bababa;
@@ -28,6 +28,7 @@
   --colors-grayscale-e: #777;
   --colors-grayscale-f: #333;
   --colors-grayscale-g: #111;
+  --colors-grayscale-black: #0a0a0a;
 
   --colors-accent-a: #d20532;
 
@@ -42,6 +43,9 @@ body {
   height: 100%;
 
   margin: 0;
+
+  color: var(--colors-grayscale-black);
+  background-color: var(--colors-grayscale-white);
 }
 
 body > * {
@@ -67,4 +71,22 @@ a:visited {
 /* For NavLink active styling */
 a.active {
   font-weight: 600;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --colors-grayscale-white: #0a0a0a;
+    --colors-grayscale-a: #111;
+    --colors-grayscale-b: #333;
+    --colors-grayscale-c: #777;
+    --colors-grayscale-d: #999;
+    --colors-grayscale-e: #bababa;
+    --colors-grayscale-f: #eaeaea;
+    --colors-grayscale-g: #f6f6f6;
+    --colors-grayscale-black: #fcfcfc;
+
+    --colors-accent-a: #d20532;
+
+    --colors-code-a: #fda848;
+  }
 }
