@@ -1,0 +1,12 @@
+.Text {
+  margin-bottom: var(--space-s);
+}
+
+.Text strong {
+  font-weight: var(--font-bold);
+}
+
+.Text ul {
+  padding-left: var(--space-s);
+  list-style: disc;
+}

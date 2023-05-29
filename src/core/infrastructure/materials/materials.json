@@ -14,5 +14,46 @@
     "path": "/semantica",
     "slug": "semantica",
     "parentSlug": "html"
+  },
+  {
+    "name": "CSS",
+    "path": "/css",
+    "slug": "css"
+  },
+  {
+    "name": "Selectores",
+    "path": "/selectores",
+    "slug": "selectores",
+    "parentSlug": "css"
+  },
+  {
+    "name": "Cascada y herencia",
+    "path": "/cascada-y-herencia",
+    "slug": "cascada-y-herencia",
+    "parentSlug": "css"
+  },
+  {
+    "name": "Especificidad",
+    "path": "/especificidad",
+    "slug": "especificidad",
+    "parentSlug": "css"
+  },
+  {
+    "name": "Modelo de caja",
+    "path": "/modelo-de-caja",
+    "slug": "modelo-de-caja",
+    "parentSlug": "css"
+  },
+  {
+    "name": "Display",
+    "path": "/display",
+    "slug": "display",
+    "parentSlug": "css"
+  },
+  {
+    "name": "Posicionamiento",
+    "path": "/posicionamiento",
+    "slug": "posicionamiento",
+    "parentSlug": "css"
   }
 ]

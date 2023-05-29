@@ -1,4 +1,5 @@
 import React from "react";
+import styles from "./Text.module.css";
 
 type TagType = "h1" | "h2" | "h3" | "h4" | "h5" | "h6" | "p" | "span";
 
@@ -10,9 +11,13 @@ type TextProps = {
 };
 
 export const Text: React.FC<TextProps> = ({
-  tag = "p",
+  tag = "article",
   children,
   ...props
 }) => {
-  return React.createElement(tag, props, children);
+  return React.createElement(
+    tag,
+    { ...props, className: styles.Text },
+    children
+  );
 };
