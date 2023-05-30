@@ -8,6 +8,6 @@ type CodeProps = {
 
 export const Code: React.FC<CodeProps> = ({ inline = false, children }) => {
   return (
-    <span className={`${styles.Code} ${inline && "inline"}`}>{children}</span>
+    <code className={`${styles.Code} ${inline && "inline"}`}>{children}</code>
   );
 };

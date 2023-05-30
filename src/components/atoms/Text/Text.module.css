@@ -1,5 +1,5 @@
-.Text {
-  margin-bottom: var(--space-s);
+.Text:not(:last-child) {
+  margin-bottom: var(--space-m);
 }
 
 .Text strong {
@@ -9,4 +9,20 @@
 .Text ul {
   padding-left: var(--space-s);
   list-style: disc;
+}
+
+.Text li {
+  margin-bottom: var(--space-m);
+}
+
+.Text li :not(:last-child) {
+  margin-bottom: var(--space-xs);
+}
+
+.Text li > strong {
+  display: block;
+}
+
+.Text li::marker {
+  color: var(--colors-grayscale-c);
 }

@@ -3,7 +3,7 @@
   padding: var(--space-xxs) var(--space-xs);
   margin: var(--space-xxs);
 
-  background-color: var(--colors-grayscale-f);
+  background-color: #000;
   color: var(--colors-code-a);
 
   font-family: monospace;
