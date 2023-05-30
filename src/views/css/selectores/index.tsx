@@ -1,4 +1,5 @@
 import { Code } from "@/components/atoms/Code";
+import { Link } from "@/components/atoms/Link";
 import { Text } from "@/components/atoms/Text";
 
 const Selectores = () => {
@@ -23,12 +24,9 @@ const Selectores = () => {
               Seleccionan todos los elementos del tipo dado dentro de un
               documento.
             </p>
-            <a
-              href="https://developer.mozilla.org/es/docs/Web/CSS/Type_selectors#ejemplo"
-              target="_blank"
-            >
+            <Link href="https://developer.mozilla.org/es/docs/Web/CSS/Type_selectors#ejemplo">
               Ejemplo
-            </a>
+            </Link>
           </li>
 
           <li>
@@ -37,12 +35,9 @@ const Selectores = () => {
               Selecciona todos los elementos que tienen el atributo{" "}
               <Code>class</Code> especificado.
             </p>
-            <a
-              href="https://developer.mozilla.org/es/docs/Web/CSS/Class_selectors#ejemplo"
-              target="_blank"
-            >
+            <Link href="https://developer.mozilla.org/es/docs/Web/CSS/Class_selectors#ejemplo">
               Ejemplo
-            </a>
+            </Link>
           </li>
 
           <li>
@@ -52,23 +47,17 @@ const Selectores = () => {
               <Code>id</Code>. Solo debe haber un elemento con un determinado ID
               dentro de un documento.
             </p>
-            <a
-              href="https://developer.mozilla.org/es/docs/Web/CSS/ID_selectors#ejemplo"
-              target="_blank"
-            >
+            <Link href="https://developer.mozilla.org/es/docs/Web/CSS/ID_selectors#ejemplo">
               Ejemplo
-            </a>
+            </Link>
           </li>
 
           <li>
             <strong>Selector universal</strong>
             <p>Selecciona todos los elementos.</p>
-            <a
-              href="https://developer.mozilla.org/es/docs/Web/CSS/Universal_selectors"
-              target="_blank"
-            >
+            <Link href="https://developer.mozilla.org/es/docs/Web/CSS/Universal_selectors">
               Ejemplo
-            </a>
+            </Link>
           </li>
 
           <li>
@@ -77,12 +66,9 @@ const Selectores = () => {
               Selecciona elementos basándose en el valor de un determinado
               atributo.
             </p>
-            <a
-              href="https://developer.mozilla.org/es/docs/Web/CSS/Attribute_selectors#ejemplos"
-              target="_blank"
-            >
+            <Link href="https://developer.mozilla.org/es/docs/Web/CSS/Attribute_selectors#ejemplos">
               Ejemplo
-            </a>
+            </Link>
           </li>
         </ul>
       </Text>
