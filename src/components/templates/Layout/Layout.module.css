@@ -7,14 +7,16 @@
   flex-shrink: 0;
 }
 
-.LayoutContent {
+.LayoutScroll {
   flex-grow: 1;
 
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.LayoutContent {
   max-width: 1000px;
 
   margin: 0 auto;
   padding: var(--space-m);
-
-  overflow-x: hidden;
-  overflow-y: auto;
 }

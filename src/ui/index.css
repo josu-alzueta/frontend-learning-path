@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Poppins:wght@400;600&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Poppins:wght@400;600&display=swap');
 
 :root {
   font-family: Poppins, system-ui, Avenir, Helvetica, Arial, sans-serif;
@@ -30,9 +30,13 @@
   --colors-grayscale-g: #111;
   --colors-grayscale-black: #0f0f0f;
 
-  --colors-accent-a: #d20532;
+  --colors-accent-a: #9d48ba;
 
   --colors-code-a: #fda848;
+
+  --colors-exercise-a: #deedff;
+  --colors-exercise-b: #3063a1;
+  --colors-exercise-c: #113767;
 
   --font-normal: 400;
   --font-bold: 600;
@@ -101,8 +105,12 @@ a.active {
     --colors-grayscale-g: #f6f6f6;
     --colors-grayscale-black: #fcfcfc;
 
-    --colors-accent-a: #d20532;
+    --colors-accent-a: #c069dd;
 
     --colors-code-a: #fda848;
+
+    --colors-exercise-a: #416188;
+    --colors-exercise-b: #b5d1f7;
+    --colors-exercise-c: #e0eeff;
   }
 }

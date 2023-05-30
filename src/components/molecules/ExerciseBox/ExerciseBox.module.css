@@ -1,0 +1,12 @@
+.ExerciseBox {
+  padding: var(--space-m);
+
+  background-color: var(--colors-exercise-a);
+  color: var(--colors-exercise-b);
+
+  border-radius: var(--radius-m);
+}
+
+.ExerciseBox a {
+  color: var(--colors-exercise-c);
+}
