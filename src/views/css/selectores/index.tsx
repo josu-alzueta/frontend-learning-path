@@ -10,8 +10,8 @@ const Selectores = () => {
 
       <Text>
         <p>
-          Los selectores definen <strong>sobre qué elementos</strong> se aplicará un conjunto de
-          reglas CSS.
+          Los selectores definen <strong>sobre qué elemento(s)</strong> se aplicará(n) un conjunto
+          de reglas CSS.
         </p>
       </Text>
 

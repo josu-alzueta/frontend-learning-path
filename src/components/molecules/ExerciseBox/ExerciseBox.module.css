@@ -1,10 +1,30 @@
 .ExerciseBox {
+  position: relative;
+
   padding: var(--space-m);
+  margin-top: var(--space-xl);
 
   background-color: var(--colors-exercise-a);
   color: var(--colors-exercise-b);
 
-  border-radius: var(--radius-m);
+  border-radius: 0 var(--radius-m) var(--radius-m) var(--radius-m);
+}
+
+.ExerciseBox:before {
+  content: '🛠️ Ejercicio';
+
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  padding: var(--space-xs) var(--space-s);
+
+  background-color: inherit;
+
+  font-weight: var(--font-bold);
+
+  border-radius: var(--radius-m) var(--radius-m) 0 0;
+  transform: translateY(-100%);
 }
 
 .ExerciseBox a {
