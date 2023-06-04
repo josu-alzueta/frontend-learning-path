@@ -1,3 +1,7 @@
+.Text {
+  line-height: 1.6rem;
+}
+
 .Text:not(:last-child) {
   margin-bottom: var(--space-m);
 }

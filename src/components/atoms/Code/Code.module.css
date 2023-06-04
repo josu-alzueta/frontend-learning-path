@@ -1,12 +1,14 @@
 .Code {
   display: inline-block;
   padding: var(--space-xxs) var(--space-xs);
-  margin: var(--space-xxs);
+  margin: 0 var(--space-xxs);
 
   background-color: #000;
   color: var(--colors-code-a);
 
   font-family: monospace;
+  line-height: 1rem;
+
   border-radius: var(--radius-s);
 }
 
