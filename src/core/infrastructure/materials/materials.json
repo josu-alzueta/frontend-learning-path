@@ -2,58 +2,68 @@
   {
     "name": "Introducción",
     "path": "/",
-    "slug": "home"
+    "slug": "home",
+    "active": true
   },
   {
     "name": "HTML",
     "path": "/html",
-    "slug": "html"
+    "slug": "html",
+    "active": true
   },
   {
     "name": "Semántica",
     "path": "/semantica",
     "slug": "semantica",
-    "parentSlug": "html"
+    "parentSlug": "html",
+    "active": true
   },
   {
     "name": "CSS",
     "path": "/css",
-    "slug": "css"
+    "slug": "css",
+    "active": true
   },
   {
     "name": "Selectores",
     "path": "/selectores",
     "slug": "selectores",
-    "parentSlug": "css"
+    "parentSlug": "css",
+    "active": true
   },
   {
     "name": "Cascada y herencia",
     "path": "/cascada-y-herencia",
     "slug": "cascada-y-herencia",
-    "parentSlug": "css"
+    "parentSlug": "css",
+    "active": true
   },
   {
     "name": "Especificidad",
     "path": "/especificidad",
     "slug": "especificidad",
-    "parentSlug": "css"
+    "parentSlug": "css",
+    "active": true
   },
   {
     "name": "Modelo de caja",
     "path": "/modelo-de-caja",
     "slug": "modelo-de-caja",
-    "parentSlug": "css"
+    "parentSlug": "css",
+    "active": true
   },
   {
     "name": "Display",
     "path": "/display",
     "slug": "display",
-    "parentSlug": "css"
+    "parentSlug": "css",
+    "active": true
   },
   {
     "name": "Posicionamiento",
     "path": "/posicionamiento",
     "slug": "posicionamiento",
-    "parentSlug": "css"
+    "parentSlug": "css",
+    "active": false
   }
 ]
